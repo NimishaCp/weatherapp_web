@@ -37,7 +37,8 @@ request(url,function(err,response,body) {
 })
 })
 
-app.listen(const PORT = process.env.PORT ,function(err){
+const PORT = process.env.PORT
+app.listen(PORT,function(err){
   if(err){
     console.log(err)
   }
