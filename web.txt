@@ -1,0 +1,11 @@
+Weather app Web
+----------------
+form
+-------
+Input field
+Button :: Submit
+
+
+request
+express
+bodyParser
