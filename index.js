@@ -3,6 +3,8 @@ const request = require('request');
 const bodyParser = require('body-parser');
 const app=express();
 const ejs = require('ejs');
+const PORT = process.env.PORT;
+
 let apiKey='c71fe5ef1b6890ef2bedfbff42216be5';
 
 
@@ -37,7 +39,6 @@ request(url,function(err,response,body) {
 })
 })
 
-const PORT = process.env.PORT
 app.listen(PORT,function(err){
   if(err){
     console.log(err)
