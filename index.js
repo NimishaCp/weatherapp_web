@@ -22,7 +22,7 @@ app.post('/', function (req, res) {
 
 request(url,function(err,response,body) {
   if (err) {
-    res.render("index",{weather:null,error:"Error please try again"});
+    res.render("index",{weather:null,error:"Error please try again!"});
   }
   else {
     let weather=JSON.parse(body)
